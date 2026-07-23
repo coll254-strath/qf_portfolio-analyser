@@ -1,9 +1,6 @@
-Custom-weighted portfolio analytics using QF-Lib. Combines a basket of stocks into a single weighted return series and generates an institutional-grade PDF tearsheet covering return, risk, drawdown, and distributional statistics.
+<img width="766" height="673" alt="image" src="https://github.com/user-attachments/assets/d3fa9dba-12d2-4982-8699-edf77df30ce4" />Custom-weighted portfolio analytics using QF-Lib. Combines a basket of stocks into a single weighted return series and generates an institutional-grade PDF tearsheet covering return, risk, drawdown, and distributional statistics.
  
-## Requirements
- 
-- Google Colab (or any environment with internet access to Yahoo Finance)
-- Python 3.x
+
 ## Setup
  
 Run once, in order:
@@ -65,8 +62,10 @@ output/
 | `numpy.dtype size changed, may indicate binary incompatibility` | Pin `numpy<2.0` before installing `qf-lib`, then restart the Colab runtime |
 | `PDFInfoNotInstalledError` | Install `poppler-utils` via `apt-get` |
 | `findfont: Font family 'Arial' not found` | Cosmetic warning only, safe to ignore |
- 
-## Full Documentation
- 
-See `DOCUMENTATION.md` for the complete metrics glossary, architecture explanation, and design rationale.
+
+Results:
+<img width="766" height="673" alt="image" src="https://github.com/user-attachments/assets/b4936b92-af69-4d8a-9b57-f57dba531bc4" />
+
+<img width="766" height="673" alt="image" src="https://github.com/user-attachments/assets/00bea8eb-5afb-4992-9d00-52d99815ec7f" />
+
  
